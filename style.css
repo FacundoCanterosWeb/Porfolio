@@ -67,49 +67,87 @@ span h1{
     font-family: sans-serif;
 }
 
-
 .body{
-      display: flex;
-      justify-content: center;
-      margin: 10px;
+ width: auto;
+  height: 600px;
+
+  
+           
     
+ 
+
+
+
+}
+.caja1{
+  float: left;
+  
+
+
+
+}
+.caja2{
+  float: left;
+  
+}
+.caja3{
+  float: left;
+  
+}
+.caja5{
+  float: left;
+ 
+  
 }
 
+.caja6{
+  float: left;
+ 
+  
+}
+
+
+
 .caja1 img{ 
-    width: 400px;
+    width: 435px;
     height:250px;
     margin:5px;
    margin-top: 10px;
    border-top-right-radius: 20px ;
    border-top-left-radius: 20px;
+  
+
 
 }
 .subcaja1{
 background-color:transparent;
-width: 400px;
+width: 435px;
 height: 100px;
+
 
 }
 .subcaja1 a{
   color: #fff;
   text-decoration: none;
   text-align: center;
+
 }
 
 .caja2 img{
-    width: 400px;
+    width: 450px;
     height:250px;
     margin:5px;
     margin-top: 10px;
     border-top-right-radius: 20px ;
     border-top-left-radius: 20px;
  
+ 
     
 }
 
 .subcaja2{
   background-color:transparent;
-  width: 400px;
+  width: 450px;
   height: 100px;
   
   }
@@ -121,17 +159,18 @@ height: 100px;
 
 
 .caja3 img{
-    width: 400px;
+    width: 430px;
     height:250px;
     margin: 5px;
     margin-top: 10px;
     border-top-right-radius: 20px ;
     border-top-left-radius: 20px;
+   
  
 }
 .subcaja3{
   background-color:transparent;
-  width: 400px;
+  width: 430px;
   height: 100px;
   
   }
@@ -155,6 +194,51 @@ height: 100px;
     color: antiquewhite;
     margin: 10px;
 }
+.caja5 img{
+  width: 650px;
+  height:250px;
+  margin: 5px;
+  margin-top: 10px;
+  border-top-right-radius: 20px ;
+  border-top-left-radius: 20px;
+
+ 
+}
+.subcaja5{
+  background-color:transparent;
+  width: 650px;
+  height: 100px;
+  
+  }
+.subcaja5 a{
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.caja6 img{
+  width: 650px;
+  height:250px;
+  margin: 5px;
+  margin-top: 10px;
+  border-top-right-radius: 20px ;
+  border-top-left-radius: 20px;
+ 
+}
+
+.subcaja6{
+  background-color:transparent;
+  width: 650px;
+  height: 100px;
+  
+  }
+
+.subcaja6 a{
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
@@ -167,9 +251,11 @@ body{
 }
 
 
+
+
 .contact_form{	
 	width: 460px; 
-  height: auto;
+  height:auto;
   margin: 80px auto;
 	border-radius: 10px;  
 	padding-top: 30px;
@@ -508,12 +594,15 @@ body {
 .buttons a:hover {
   transform: scale(1.2);
 }
-.container i{
-justify-content: center;
- align-self: center;
-  margin: 10px;
 
-}
+
+.container i{
+  justify-content: center;
+  align-self: center;
+   margin: 10px;
+      
+  
+  }
 
 
 @media (max-width: 1200px) and (min-width:250px) {
@@ -543,6 +632,23 @@ justify-content: center;
    
   }
 
+  
+.caja5 img{
+  width: 100%;
+  height: 100%;
+ 
+ 
+}
+
+
+.caja6 img{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+
+
 
 
 
@@ -564,6 +670,16 @@ justify-content: center;
      width: 100%;
      height: 100%;}
      
+     .subcaja5{
+      text-align: center;
+       width: 100%;
+       height: 100%;}
+
+       .subcaja6{
+        text-align: center;
+         width: 100%;
+         height: 100%;}
+
     nav{
       width: 100%;
       height: 100%;
